@@ -20,7 +20,3 @@ export default function handler(req, res) {
 
   res.status(405).json({ error: 'Method not allowed' });
 }
-
-export default function handler(req, res) {
-  res.status(200).send("Crypto Coach API is running!");
-}
